@@ -113,7 +113,6 @@ def downloadimages(query):
     pip install google_images_download
     documentation: https://google-images-download.readthedocs.io/en/latest/arguments.html
     '''
-    remove_old_images()
     # keywords is the search query
     # format is the image file format
     # limit is the number of images to be downloaded
